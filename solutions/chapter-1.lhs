@@ -137,7 +137,7 @@ Exercise G
 > line1 n = if n==1 then "one man went to mow\n"
 >    else numSpelling n ++ " men went to mow\n"
 >
-> line2 = "Went to mow a meadow\n"
+> line2 = "went to mow a meadow\n"
 >
 > line3 n = if n==1 then "one man and his dog\n"
 >    else numSpelling n ++ " men, " ++ line3 (n-1)
@@ -145,3 +145,5 @@ Exercise G
 > line4 = line2
 >
 > numSpelling n = ["one","two","three","four","five","six","seven","eight","nine"]!!(n-1)
+
+I decided to do this in all lowercase because I'm lazy. Making each line start with a capital letter wouldn't be too hard.
